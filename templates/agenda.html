@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+	{% load static %}
+	<head>
+
+		<title>Agendamento</title>
+		<meta charset="utf-8">
+		 
+		<link rel="stylesheet" type="text/css" href="{% static 'css/agendamento.css' %}">
+	</head>
+
+
+	<body>
+			<h2 id = 'ag'>Agendamentos</h2>
+
+						
+						
+			
+			<uxl  id='IconAgen' style="font-size: 15px">
+				<div id='fundo'></div>
+				{% for evento in eventos %}
+					
+					<div style={% if evento.evento_atrasado %} 'color: red'	 {% endif %}>
+
+						<li>{{evento.titulo}} - {{evento.getDataEvento}} <br>
+							{{evento.local}} - {{evento.descricao}}<br>
+							
+
+								(<a href="evento/?id={{evento.id}}">Editar</a>
+								/<a href="evento/delete/{{evento.id}}">Excluir</a>)</li>
+
+					</div>
+
+
+									
+				{% endfor %} 
+
+					
+
+					<div id="box">
+						
+						<a id='novoCad' href="evento/"><button type="button">Novo Evento</button></a>
+
+						<a  id='logout' href='/logout/'><button type="button">Logout</button></a>
+						<br><br><br><br><br>
+					</div>
+						
+			</ul>
+
+					
+
+
+					
+
+						<!--<a  id='logout' href='/logout/'><button type="button">Logout</button></a>-->
+				
+		</body>
+</html>
