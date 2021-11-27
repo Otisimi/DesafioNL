@@ -10,8 +10,10 @@
 <hr style="height: 10px;">
 ##### Login
 	Tela de login, com Admin, somente ele pode cadastrar novos usuários
+	Agora possui um logo da empresa NL, uma pequena foto de usuário ao lado, e um espaçamento maior entre a caixa de login e senha
 	
-![CSS e DJango](https://i.imgur.com/1tfRkoo.png "CSS e DJango")
+	
+	![image](https://user-images.githubusercontent.com/95048762/143686958-4ad3f014-42dd-4f44-99aa-e4ee375b0c92.png)
 
 
 ### CSS no Django
@@ -30,8 +32,13 @@ No HTML, adicionamos o {% load static %} em cima da tag < link> e no SRC adicion
 ![load](https://i.imgur.com/cYw8Geq.png "load")
 
 Lista de tarefas (Retificada)
-![lista](https://i.imgur.com/mAHZp66.png "lista")
 
-tela de cadastro de novo item da lista
+A lista de tarefas agora conta com o local do evento, bem como sua descrição
+![image](https://user-images.githubusercontent.com/95048762/143686984-98c7ac2c-97a1-498a-a30f-7688bc1017ee.png)
 
-![Cadastro de novo item](https://i.imgur.com/MWQxBG7.png "Cadastro de novo item")
+A tela de cadastro de novo item agora tem, na parte da descrição, uma caixa de texto
+para o usuário informar a descrição do evento
+
+![image](https://user-images.githubusercontent.com/95048762/143687012-685f4813-bbeb-4c74-b66a-7cf42bfa5811.png)
+
+Muito obrigado pela atenção!! 🤗
