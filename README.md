@@ -12,8 +12,7 @@
 	Tela de login, com Admin, somente ele pode cadastrar novos usuários
 	Agora possui um logo da empresa NL, uma pequena foto de usuário ao lado, e um espaçamento maior entre a caixa de login e senha
 	
-	
-	![image](https://user-images.githubusercontent.com/95048762/143686958-4ad3f014-42dd-4f44-99aa-e4ee375b0c92.png)
+![image](https://user-images.githubusercontent.com/95048762/143686958-4ad3f014-42dd-4f44-99aa-e4ee375b0c92.png)
 
 
 ### CSS no Django
